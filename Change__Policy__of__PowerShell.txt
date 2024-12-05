@@ -1,0 +1,13 @@
+Chạy dưới quyền RemoteSigned (Được phép chạy file .ps1, Không cho phép chạy bất kỳ script nào)
+	Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned
+
+Chạy dưới quyền Restricted(Không được phép chạy file .ps1, Cho phép chạy script cục bộ, nhưng yêu cầu script từ nguồn khác phải được ký.)
+	Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Restricted
+
+Chạy dưới quyền Unrestricted (Chạy tất cả các script, không an toàn)
+	Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Unrestricted
+
+-Scope: CurrentUser, LocalMahine, MachinePolicy, UserPolicy, Process
+
+Kiểm tra quyền hiện tại
+	Get-ExecutionPolicy -List

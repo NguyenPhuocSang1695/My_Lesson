@@ -1,0 +1,4 @@
+biên dịch: gcc -c file_name.c
+tạo file out: gcc -o file_name.out file_name.c
+chạy file và truyền đối số vào :./file_name.out đối_số_truyền_vào
+thư viện liên kết động: libd.a

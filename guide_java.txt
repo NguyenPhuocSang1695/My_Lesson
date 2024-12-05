@@ -1,0 +1,37 @@
+Kiểu dữ liệu trong java:
+	boolean: kiểu dữ liệu đúng sai
+	String: dạng chuối (chữ S phải viết hoa)
+instanmceof: vi du
+ví dụ về cách dùng "instranceof"
+	String flag="Nguyen Sang";
+	boolean result;
+	result= flag instanceof String; (Giá trị của biến flag có phải là một ví dụ của kiểu String không)
+	trường hợp này result sẽ trả về true;
+xuống dòng: \n
+Nhap chuỗi: .nextLine();
+Nhap số nguyên: .nextInt();, .nextLong();
+Nhap số thực: .nextDouble();, .nextFloat();
+.hasNextLong(): kiểm tra giá trị đầu vào tiếp theo có đúng là kiểu dữ liệu Long không;
+.hasNext(Kiểu dữ liệu khai báo)(); kiểm tra giá trị đầu vào tiếp theo có đúng là kiểu dữ liệu khai báo không
+.next(); xóa đầu vào không hop[ự lệ
+Static: gọi mà không cần đối tượng
+ví dụ:
+	public class test {
+		public void In (){};
+		public static void Print (){};
+	}
+	
+	nếu muốn gọi In() thì phải có 1 đối tượng ví dụ test test1= new test(); test1.In();
+	nếu muốn gọi Print() thì chỉ cần test.Print();
+Copy chuỗi: arraycopy();
+	arraycopy(chuỗi nguồn, vị trí bắt đầu cóp từ chuỗi nguồn, chuỗi muốn cóp, ví trí bắt đầu từ chuỗi muốn cop, độ dài mong muốn của chuỗi muốn cóp);
+
+truy cập vào attribute: tạo object -> sử dụng .
+extends Student (kế thừa của class Student), dùng protected thay vì private để kế thừa
+Super gọi constrctor của lớp cha (lớp cha phải có constrctor)
+base class: lớp cha
+derived class: lớp con
+"static" cho phép chỉnh truy cập vào class đó mà không cần thông qua một class khác
+
+"implement" dùngg khi một lớp thực thi một giao diện (interface)
+
