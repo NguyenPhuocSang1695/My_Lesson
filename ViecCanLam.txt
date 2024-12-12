@@ -1,7 +1,0 @@
-Việc cần làm
--học thư viện stl c++
--học ngôn ngữ c
--nghe ielts listenning
--học cơ sở dữ liệu
--hoàn thành bài tập oop
--học html, css, js
