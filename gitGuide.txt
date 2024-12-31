@@ -4,3 +4,4 @@ git add . (nếu muốn thêm hết thì đổi . thành *)
 git commit -m "nội dung tin nhắn" 
  git remote add origin "github_url"
 git push origin main 
+git pull origin main (cập nhật repo về máy)
