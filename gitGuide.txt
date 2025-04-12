@@ -5,3 +5,9 @@ git commit -m "nội dung tin nhắn"
  git remote add origin "github_url"
 git push origin main 
 git pull origin main (cập nhật repo về máy)
+
+Cập nhật danh sách nhánh ở git:   	git fetch --prune
+Quay lại lần commit trước đó:     	git reset --hard HEAD~1
+Quay lại lần commit bằng mã hash: 	git reset --hard mã_hash
+Tạo nhánh mới từ commit cũ:        	git checkout -b new-branch mã_hash
+Kiểm tra trạng thái repo:          	git status
